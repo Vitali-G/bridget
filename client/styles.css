@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+    font-style: italic;
+    animation: blinker 2s linear infinite;
+}
+
+.add {
+    text-align: center;
+}
+
+@keyframes blinker {
+    60% {
+      opacity: 0;
+    }
+  }
+
